@@ -1,0 +1,116 @@
+.header__center {
+    background: rgba(255,225,65,255) none repeat scroll 0 0 !important;
+}
+.cards-sm__img-wrapper {
+    background: #fffbdc !important;
+}
+a.cards-sm.popular-categories__wrapper-item{
+	border: none !important;
+}
+h5.font-body--xl-500 {
+    font-size: 14px !important;
+}
+.banner--04__img-wrapper {
+    height: 100% !important;
+    width: 100% !important;
+}
+.banner--04__content {
+    height: 500px !important;
+    margin: 5px !important;
+}
+.banner--04__content img {
+    height: 400px !important;
+    margin: 5px !important;
+}
+button.arrows__btn {
+    background: #cccccc;
+}
+.mycart_store{
+	background-color: #2f9440 !important;
+    padding: 5px;
+    border-radius: 20px;
+}
+.header .cart-bag .item-number{
+	top: -5px !important;
+	height: 16px !important;
+	width: 16px !important;
+}
+.header__center{
+	padding: 10px 0 !important;
+}
+/*.swiper-container.banner-slider--04.swiper-container-fade.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events{
+	margin: 30px 0 !important;
+}*/
+.banner_home {
+    background: #fffceb !important;
+    height: 160px !important;
+    padding: 20px 20px !important;
+    margin: 0px 10px !important;
+}
+#banner_coupon{
+	height: 100px !important;
+	width: 100% !important
+}
+.banner_text{
+	padding: 20px 10px !important;
+}
+.banner_text h2 {
+    color: #000 !important;
+    font-weight: 900;
+}
+.banner_text p {
+    color: #000 !important;
+    font-weight: 600;
+}
+.per_off{
+	color: #5ca670 !important;
+}
+.app_download_btn{
+	background-color: #09821e !important;
+	color: #fff !important;
+	float: right !important;
+    border-radius: 15px !important;
+    padding: 12px !important;
+    margin-top: 25px !important;
+}
+.home_categories{
+	margin: 0px 10px !important;
+}
+.home_products{
+	margin: 0 10px 30px 10px !important;
+}
+.home_product_img{
+	height: 100px !important;
+}
+.home_product_card_img{
+	height: 120px !important;
+}
+.btn-addcart-home{
+	background-color: #ff6515 !important;
+	color:#fff !important;
+	padding: 5px 45px !important;
+}
+.select_qty_home_Card{
+	height: 25px !important;
+    padding: 0px 10px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    font-size: 12px !important;
+}
+.card_home_main_price{
+	color: #ff6515 !important;
+}
+.seemore_products_home{
+	font-size: 14px !important;
+    margin: 0px 1opx;
+    color: #000 !important;
+    padding-right: 20px !important;
+}
+.seemore_products_home i{
+	color: #ffeb89 !important;
+	background-color: #000 !important;
+	border-radius: 100% !important;
+}
+footer{
+	background-color: #ffffff !important;
+}
