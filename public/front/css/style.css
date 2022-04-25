@@ -772,14 +772,15 @@ a {
   height: 45px;
   position: relative; }
   .header__input-form input {
-    width: inherit;
-    height: inherit;
+    width: 333PX;
+    height: auto;
     border-radius: 6px;
     border: 1px solid #e5e5e5;
     font-size: 15px;
-    line-height: 21px;
+    line-height: 38px;
     color: #1a1a1a;
-    padding-left: 45px; }
+    padding-left: 42PX;
+}
     .header__input-form input::-webkit-input-placeholder {
       font-size: inherit;
       line-height: inherit;

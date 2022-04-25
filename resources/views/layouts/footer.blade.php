@@ -3,26 +3,12 @@
                 <div class="footer__top">
                     <div class="row">
                         <!-- Brand information-->
-                        <div class="col-lg-4">
-                            <div class="footer__brand-info">
-                                <div class="footer__brand-info-logo">
-                                    <img src="{{ asset('front') }}/images/logo-nl-white.png" alt="logo" />
-                                </div>
-                                <p class="font-body--md-400">
-                                    Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.
-                                </p>
-                                <div class="footer__brand-info-contact">
-                                    <a href="#"><span>(219)555-0114</span></a>
-                                    or
-                                    <a href="#"><span>Proxy@gmail.com</span></a>
-                                </div>
-                            </div>
-                        </div>
+                        <hr style="border: 1px solid #dfedfb;">
                         <!-- My Account  -->
                         <div class="col-lg-2 col-md-3 col-6">
                             <ul class="footer__navigation">
                                 <li class="footer__navigation-title">
-                                    <h2 class="font-body--lg-500">My Account</h2>
+                                    <h2 class="font-body--lg-500 " style="color: black;">comapny</h2>
                                 </li>
                                 <li class="footer__navigation-link">
                                     <a href="#"> My Account </a>
@@ -42,7 +28,7 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <ul class="footer__navigation">
                                 <li class="footer__navigation-title">
-                                    <h2 class="font-body--lg-500">My Helps</h2>
+                                <h2 class="font-body--lg-500 " style="color: black;">comapny</h2>
                                 </li>
                                 <li class="footer__navigation-link">
                                     <a href="#"> Contact </a>
@@ -62,7 +48,7 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <ul class="footer__navigation">
                                 <li class="footer__navigation-title">
-                                    <h2 class="font-body--lg-500">Proxy</h2>
+                                <h2 class="font-body--lg-500 " style="color: black;">comapny</h2>
                                 </li>
                                 <li class="footer__navigation-link">
                                     <a href="#"> About </a>
@@ -79,48 +65,31 @@
                             </ul>
                         </div>
                         <!-- Categories -->
-                        <div class="col-lg-2 col-md-3 col-6">
-                            <ul class="footer__navigation">
-                                <li class="footer__navigation-title">
-                                    <h2 class="font-body--lg-500">Categories</h2>
-                                </li>
-                                <li class="footer__navigation-link">
-                                    <a href="#"> Fruit &amp; Vegetables </a>
-                                </li>
-                                <li class="footer__navigation-link">
-                                    <a href="#"> Meat &amp; Fish </a>
-                                </li>
-                                <li class="footer__navigation-link">
-                                    <a href="#"> Bread &amp; Bakery </a>
-                                </li>
-                                <li class="footer__navigation-link">
-                                    <a href="#"> Beauty &amp; Health </a>
-                                </li>
-                            </ul>
-                        </div>
+                      
                     </div>
                 </div>
-                <div class="footer__bottom">
-                    <p class="footer__copyright-text">
-                        Shopery eCommerce © 2021. All Rights Reserved
-                    </p>
-                    <div class="footer__partner d-flex">
-                        <a href="#" class="footer__partner-item">
-                            <img src="{{ asset('front') }}/images/brand-icon/img-01.png" alt="img" />
-                        </a>
-                        <a  href="#" class="footer__partner-item">
-                            <img src="{{ asset('front') }}/images/brand-icon/img-02.png" alt="img" />
-                        </a>
-                        <a  href="#" class="footer__partner-item">
-                            <img src="{{ asset('front') }}/images/brand-icon/img-03.png" alt="img" />
-                        </a>
-                        <a  href="#" class="footer__partner-item">
-                            <img src="{{ asset('front') }}/images/brand-icon/img-04.png" alt="img" />
-                        </a >
-                        <a  href="#" class="footer__partner-item">
-                            <img src="{{ asset('front') }}/images/brand-icon/img-05.png" alt="img" />
+                <div class="row">
+                <hr style="border: 1px solid #dfedfb;">
+                    <div class="col-md-6">
+                    <a href="#" class="footer__partner-item">
+                            <img src="{{ asset('front') }}/images/brand-icon/hyper.JPG" alt="img" />
                         </a>
                     </div>
+                    <div class="col-md-6">
+                    <a href="#" class="footer__partner-item">
+                            <img src="{{ asset('front') }}/images/brand-icon/app.JPG" alt="img" />
+                        </a>
+                    </div>
+
+
+                </div>
+                <hr style="border: 1px solid #dfedfb;">
+                <div class="footer__bott">
+                    <p class="footer__copyright-text">
+                        Shopery eCommerce © 2021. All Rights Reserved
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque ab exercitationem beatae maxime maiores ratione sit, dolorem amet? Excepturi unde voluptas totam quia magnam deleniti doloremque eligendi commodi facili
+                    </p>
+                  
                 </div>
             </div>
         </footer>

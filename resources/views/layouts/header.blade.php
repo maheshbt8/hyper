@@ -42,12 +42,68 @@
                     </div>
                 </div>
             </div> -->
-            <div class="header__center">
-                <div class="container">
-                    <div class="header__center-content">
-                        <div class="header__brand">
-                            <button class="header__sidebar-btn">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <div class="modal fade login-modal-main" id="bd-example-modal">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login-modal">
+                       <div class="row">
+                        <div class="col-lg-12">
+                            <h3 class="heading-design-h5">Phone Number Verification
+                                <button type="button" class="close close-top-right" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="mdi mdi-close"></i></span>
+                                    <span class="sr-only">Close</span>
+                                </button>
+                            </h3></div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3 pad-right-0">
+                            </div>
+                            <div class="col-lg-6 pad-left-0">
+
+                                <form>
+                                    <div class="login-modal-right">
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="login" role="tabpanel">
+
+                                                <fieldset class="form-group">
+                                                    <label><h5><center>Enter your phone number to<br/>Login/Sign up </center></h5></label>
+                                                    <input type="text" class="form-control" placeholder="+91" required="">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <button type="button" class="btn btn-lg btn-secondary btn-block" data-target="#next-example-modal" data-toggle="modal">Next</button>
+                                                </fieldset>
+                                            </div>                              </div>
+                                            <div class="clearfix"></div>
+
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-lg-3 pad-right-0">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----model--->
+
+
+
+
+
+            <div class="header__center nav_header">
+                <div class="container-fluid">
+                    <div class="header__center-content ">
+                        <div class="header__brand ml-auto">
+                            <button class="header__sidebar-btn ml-1">
+                                <svg width="22" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M3 6H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M3 18H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -58,7 +114,7 @@
                             </a>
                             <p class="font-body--sm">
                               <i class="fa fa-map-marker" aria-hidden="true"></i>
-                              Store Location: Lincoln- 344, Illinois, Chicago, USA
+                              Store Location:<br> Lincoln- 344, Illinois, Chicago, USA
                             </p>
                         </div>
                         <form action="#">
@@ -83,10 +139,11 @@
                         </form>
                         <div class="header__cart">
                             <div class="header__cart-item">
+                            <a href="#" data-target="#bd-example-modal" data-toggle="modal" class="btn btn-link"> login</a>
+                            </div>
+                            <div class="header__cart-item">
                                 <a class="fav" href="wishlist.html">
-                                    <svg width="25" height="23" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.9996 16.5451C-6.66672 7.3333 4.99993 -2.6667 9.9996 3.65668C14.9999 -2.6667 26.6666 7.3333 9.9996 16.5451Z" stroke="#1A1A1A" stroke-width="1.5" />
-                                    </svg>
+                                  Store Details
                                 </a>
                             </div>
                             <div class="header__cart-item mycart_store">
@@ -787,4 +844,5 @@
                     </div>
                 </div>
             </div>
+         
         </header>

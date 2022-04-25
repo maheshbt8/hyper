@@ -1,5 +1,10 @@
+.nav_header{
+    margin-inline-start: auto !important;
+}
+
+
 .header__center {
-    background: rgba(255,225,65,255) none repeat scroll 0 0 !important;
+    background: rgba(255,225,65,255) none repeat scroll ;
 }
 .cards-sm__img-wrapper {
     background: #fffbdc !important;
