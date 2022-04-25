@@ -99,9 +99,9 @@
 
 
             <div class="header__center nav_header">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="header__center-content ">
-                        <div class="header__brand ml-auto">
+                        <div class="header__brand mr-auto">
                             <button class="header__sidebar-btn ml-1">
                                 <svg width="22" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -112,13 +112,16 @@
                             <a href="index.html">
                                 <img src="{{ asset('front') }}/images/logo.png" alt="brand-logo" />
                             </a>
+                            <button type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <p class="font-body--sm">
                               <i class="fa fa-map-marker" aria-hidden="true"></i>
                               Store Location:<br> Lincoln- 344, Illinois, Chicago, USA
                             </p>
+</button>
+                            
                         </div>
-                        <form action="#">
-                            <div class="header__input-form">
+                        <form action="#" >
+                            <div class="header__input-form" style="margin-left: 30px;">
                                 <input type="text" placeholder="Search" />
                                 <span class="search-icon">
                                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,28 +140,37 @@
                                 </button> -->
                             </div>
                         </form>
-                        <div class="header__cart">
+                      
+  
+                        
+                        <div class="header_cart" style=" padding-right:30px">
+                        <ul class="nav d-flex justify-content-between disply-inline ">
+                       
+                            <li class="nav-item">
+                            <div class="header__cart nav-item dropdown">
+                            <div class="dropdown">
+  <a class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+    Store Details
+</a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <li><button class="dropdown-item" type="button">About Us</button></li>
+    <li><button class="dropdown-item" type="button">Store Locator</button></li>
+    <li><button class="dropdown-item" type="button">Contact Us</button></li>
+  </ul>
+</div>
+</li>
+<li class="nav-item">
                             <div class="header__cart-item">
-                            <a href="#" data-target="#bd-example-modal" data-toggle="modal" class="btn btn-link"> login</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> login</a>
                             </div>
-                            <div class="header__cart-item">
-                                <a class="fav" href="wishlist.html">
-                                  Store Details
-                                </a>
-                            </div>
-                            <div class="header__cart-item mycart_store">
+                            </li>
+                          
+                             <li class="nav-item">
+                            <div class="header__cart-item mycart_store" style="padding-inline-end: 10px;">
                                 <div class="header__cart-item-content">
                                     <button class="cart-bag">
                                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                        <!-- <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M11.3333 14.6667H7.08333L4.25 30.25H29.75L26.9167 14.6667H22.6667M11.3333 14.6667V10.4167C11.3333 7.28705 13.8704 4.75 17 4.75V4.75C20.1296 4.75 22.6667 7.28705 22.6667 10.4167V14.6667M11.3333 14.6667H22.6667M11.3333 14.6667V18.9167M22.6667 14.6667V18.9167"
-                                                stroke="currentColor"
-                                                stroke-width="1.5"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg> -->
+                                       
                                         <span class="item-number">2</span>
                                     </button>
                                     <div class="header__cart-item-content-info">
@@ -166,10 +178,141 @@
                                     </div>
                                 </div>
                             </div>
+                           </li>
+                        </ul>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button> -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-center">
+        <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;">Phone Number Verification</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-light p-5">
+        <form>
+          <div class="mb-3 text-center">
+          
+          <label for="message-text" class="col-form-label">Enter Your Mobile Number to <br>Login /Singup</label>
+          <input type="text" class="form-control" id="recipient-name" placeholder="+91">
+          </div>
+          <button type="button" class="btn btn-dark w-100 "  data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo">Next</button>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-center">
+        <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;">Phone Number Verification</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-light p-5">
+        <form>
+          <div class="mb-3 text-center">
+          <label for="message-text" class="col-form-label">Enter 4 digit Code sent to your phone <br>+91-9000394200</label>
+          <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="">
+    </div>
+  </div>          </div>
+          <button type="button" class="btn btn-dark w-100 " data-bs-toggle="modal" data-bs-target="#success" data-bs-whatever="@mdo">Next</button>
+          <p class="text-center">Resend Code (in 15 sec)</p>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+  
+
+
+<div class="modal fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-center">
+        <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;"></h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-light p-5">
+        
+        <h5 class="text-center p-3" ><i class="fa fa-check text-success" aria-hidden="true"></i></h5> 
+       <h4 class="text-center" style="color: green;">Successfully Logged in !</h4>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+<!---address model-->
+<!-- Button trigger modal -->
+
+
+<!-- Modal address -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="" style="font-size: 15px;">
+                              <i class="fa fa-map-marker" aria-hidden="true"></i>
+                              Store Location:<br> Lincoln- 344, Illinois, Chicago, USA <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Change</button>
+                            </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!---step 2--->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="" style="font-size: 15px;">
+                              
+                              Change Location </p>
+                              <form>
+                              <div class="row"><div class="col"> <button class="btn btn-success" >Detect my Loction</button></div> or <div class="col"> <input type="text" placeholder="Type Your City" class="form-control"></div></div></form>
+                              
+                           
+      </div>
+      
+    </div>
+  </div>
+</div>
+
             <!-- <div class="header__bottom">
                 <div class="container">
                     <div class="header__bottom-content">
