@@ -1,5 +1,5 @@
  <header class="header header--two header--four">
-            <!-- <div class="header__top">
+     <!-- <div class="header__top">
                 <div class="container">
                     <div class="header__top-content">
                         <div class="header__top-left">
@@ -43,277 +43,422 @@
                 </div>
             </div> -->
 
-            <div class="modal fade login-modal-main" id="bd-example-modal">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="login-modal">
-                       <div class="row">
-                        <div class="col-lg-12">
-                            <h3 class="heading-design-h5">Phone Number Verification
-                                <button type="button" class="close close-top-right" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true"><i class="mdi mdi-close"></i></span>
-                                    <span class="sr-only">Close</span>
-                                </button>
-                            </h3></div>
+     <div class="modal fade login-modal-main" id="bd-example-modal">
+         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+             <div class="modal-content">
+                 <div class="modal-body">
+                     <div class="login-modal">
+                         <div class="row">
+                             <div class="col-lg-12">
+                                 <h3 class="heading-design-h5">Phone Number Verification
+                                     <button type="button" class="close close-top-right" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true"><i class="mdi mdi-close"></i></span>
+                                         <span class="sr-only">Close</span>
+                                     </button>
+                                 </h3>
+                             </div>
 
-                        </div>
+                         </div>
 
-                        <div class="row">
-                            <div class="col-lg-3 pad-right-0">
-                            </div>
-                            <div class="col-lg-6 pad-left-0">
+                         <div class="row">
+                             <div class="col-lg-3 pad-right-0">
+                             </div>
+                             <div class="col-lg-6 pad-left-0">
 
-                                <form>
-                                    <div class="login-modal-right">
-                                        <div class="tab-content">
-                                            <div class="tab-pane active" id="login" role="tabpanel">
+                                 <form>
+                                     <div class="login-modal-right">
+                                         <div class="tab-content">
+                                             <div class="tab-pane active" id="login" role="tabpanel">
 
-                                                <fieldset class="form-group">
-                                                    <label><h5><center>Enter your phone number to<br/>Login/Sign up </center></h5></label>
-                                                    <input type="text" class="form-control" placeholder="+91" required="">
-                                                </fieldset>
-                                                <fieldset class="form-group">
-                                                    <button type="button" class="btn btn-lg btn-secondary btn-block" data-target="#next-example-modal" data-toggle="modal">Next</button>
-                                                </fieldset>
-                                            </div>                              </div>
-                                            <div class="clearfix"></div>
+                                                 <fieldset class="form-group">
+                                                     <label>
+                                                         <h5>
+                                                             <center>Enter your phone number to<br />Login/Sign up </center>
+                                                         </h5>
+                                                     </label>
+                                                     <input type="text" class="form-control" placeholder="+91" required="">
+                                                 </fieldset>
+                                                 <fieldset class="form-group">
+                                                     <button type="button" class="btn btn-lg btn-secondary btn-block" data-target="#next-example-modal" data-toggle="modal">Next</button>
+                                                 </fieldset>
+                                             </div>
+                                         </div>
+                                         <div class="clearfix"></div>
 
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="col-lg-3 pad-right-0">
+                                         <div class="clearfix"></div>
+                                     </div>
+                                 </form>
+                             </div>
+                             <div class="col-lg-3 pad-right-0">
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!----model--->
-
-
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!----model--->
 
 
 
-            <div class="header__center nav_header">
-                <div class="container">
-                    <div class="header__center-content ">
-                        <div class="header__brand mr-auto">
-                            <button class="header__sidebar-btn ml-1">
-                                <svg width="22" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M3 6H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M3 18H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                            <a href="index.html">
-                                <img src="{{ asset('front') }}/images/logo.png" alt="brand-logo" />
-                            </a>
-                            <button type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            <p class="font-body--sm">
-                              <i class="fa fa-map-marker" aria-hidden="true"></i>
-                              Store Location:<br> Lincoln- 344, Illinois, Chicago, USA
-                            </p>
-</button>
-                            
-                        </div>
-                        <form action="#" >
-                            <div class="header__input-form" style="margin-left: 30px;">
-                                <input type="text" placeholder="Search" />
-                                <span class="search-icon">
-                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M9.16667 16.3333C12.8486 16.3333 15.8333 13.3486 15.8333 9.66667C15.8333 5.98477 12.8486 3 9.16667 3C5.48477 3 2.5 5.98477 2.5 9.66667C2.5 13.3486 5.48477 16.3333 9.16667 16.3333Z"
-                                            stroke="currentColor"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                        <path d="M17.4999 18L13.8749 14.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </span>
-                                <!-- <button type="submit" class="search-btn button button--md">
+
+
+     <div class="header__center nav_header">
+         <div class="container">
+             <div class="header__center-content ">
+                 <div class="header__brand mr-auto">
+                     <button class="header__sidebar-btn ml-1">
+                         <svg width="22" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                             <path d="M3 6H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                             <path d="M3 18H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg>
+                     </button>
+                     <a href="index.html">
+                         <img src="{{ asset('front') }}/images/logo.png" alt="brand-logo" />
+                     </a>
+                     <button data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+                         <p class="font-body--sm">
+                             <i class="fa fa-map-marker" aria-hidden="true"></i>
+                             Store Location:<br> Lincoln- 344, Illinois, Chicago, USA
+                         </p>
+                     </button>
+
+                 </div>
+                 <form action="#">
+                     <div class="header__input-form" style="margin-left: 30px;">
+                         <input type="text" placeholder="Search" />
+                         <span class="search-icon">
+                             <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M9.16667 16.3333C12.8486 16.3333 15.8333 13.3486 15.8333 9.66667C15.8333 5.98477 12.8486 3 9.16667 3C5.48477 3 2.5 5.98477 2.5 9.66667C2.5 13.3486 5.48477 16.3333 9.16667 16.3333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M17.4999 18L13.8749 14.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                             </svg>
+                         </span>
+                         <!-- <button type="submit" class="search-btn button button--md">
                                     Search
                                 </button> -->
-                            </div>
-                        </form>
-                      
-  
-                        
-                        <div class="header_cart" style=" padding-right:30px">
-                        <ul class="nav d-flex justify-content-between disply-inline ">
-                       
-                            <li class="nav-item">
-                            <div class="header__cart nav-item dropdown">
-                            <div class="dropdown">
-  <a class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-    Store Details
-</a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <li><button class="dropdown-item" type="button">About Us</button></li>
-    <li><button class="dropdown-item" type="button">Store Locator</button></li>
-    <li><button class="dropdown-item" type="button">Contact Us</button></li>
-  </ul>
-</div>
-</li>
-<li class="nav-item">
-                            <div class="header__cart-item">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> login</a>
-                            </div>
-                            </li>
-                          
-                             <li class="nav-item">
-                            <div class="header__cart-item mycart_store" style="padding-inline-end: 10px;">
-                                <div class="header__cart-item-content">
-                                    <button class="cart-bag">
-                                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                       
-                                        <span class="item-number">2</span>
-                                    </button>
-                                    <div class="header__cart-item-content-info">
-                                        <h5>my cart</h5>
-                                    </div>
-                                </div>
-                            </div>
-                           </li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                     </div>
+                 </form>
+
+
+
+                 <div class="header_cart" style=" padding-right:30px">
+                     <ul class="nav d-flex justify-content-between disply-inline ">
+
+                         <li class="nav-item">
+                             <div class="header__cart nav-item dropdown">
+                                 <div class="dropdown">
+                                     <a class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                         Store Details
+                                     </a>
+                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                         <li><button class="dropdown-item" type="button">About Us</button></li>
+                                         <li><button class="dropdown-item" type="button">Store Locator</button></li>
+                                         <li><button class="dropdown-item" type="button">Contact Us</button></li>
+                                     </ul>
+                                 </div>
+                         </li>
+                         <li class="nav-item">
+                             <div class="header__cart-item">
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> login</a>
+                             </div>
+                         </li>
+
+                         <li class="nav-item">
+                             <div class="header__cart-item mycart_store" style="padding-inline-end: 10px;">
+                                 <div class="header__cart-item-content">
+                                     <button class="cart-bag">
+                                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                         <span class="item-number">2</span>
+                                     </button>
+                                     <div class="header__cart-item-content-info">
+                                         <h5>my cart</h5>
+                                     </div>
+                                 </div>
+                             </div>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
 
 
 
 
 
 
-            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button> -->
+     <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button> -->
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header d-flex justify-content-center">
-        <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;">Phone Number Verification</h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body bg-light p-5">
-        <form>
-          <div class="mb-3 text-center">
-          
-          <label for="message-text" class="col-form-label">Enter Your Mobile Number to <br>Login /Singup</label>
-          <input type="text" class="form-control" id="recipient-name" placeholder="+91">
-          </div>
-          <button type="button" class="btn btn-dark w-100 "  data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo">Next</button>
-        </form>
-      </div>
-     
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header d-flex justify-content-center">
-        <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;">Phone Number Verification</h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body bg-light p-5">
-        <form>
-          <div class="mb-3 text-center">
-          <label for="message-text" class="col-form-label">Enter 4 digit Code sent to your phone <br>+91-9000394200</label>
-          <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="">
-    </div>
-  </div>          </div>
-          <button type="button" class="btn btn-dark w-100 " data-bs-toggle="modal" data-bs-target="#success" data-bs-whatever="@mdo">Next</button>
-          <p class="text-center">Resend Code (in 15 sec)</p>
-        </form>
-      </div>
-     
-    </div>
-  </div>
-</div>
-  
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header d-flex justify-content-center">
+                     <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;">Phone Number Verification</h3>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body bg-light p-5">
+                     <form>
+                         <div class="mb-3 text-center">
 
+                             <label for="message-text" class="col-form-label">Enter Your Mobile Number to <br>Login /Singup</label>
+                             <input type="text" class="form-control" id="recipient-name" placeholder="+91">
+                         </div>
+                         <button type="button" class="btn btn-dark w-100 " data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo">Next</button>
+                     </form>
+                 </div>
 
-<div class="modal fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header d-flex justify-content-center">
-        <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;"></h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body bg-light p-5">
-        
-        <h5 class="text-center p-3" ><i class="fa fa-check text-success" aria-hidden="true"></i></h5> 
-       <h4 class="text-center" style="color: green;">Successfully Logged in !</h4>
-      </div>
-     
-    </div>
-  </div>
-</div>
+             </div>
+         </div>
+     </div>
+     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header d-flex justify-content-center">
+                     <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;">Phone Number Verification</h3>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body bg-light p-5">
+                     <form>
+                         <div class="mb-3 text-center">
+                             <label for="message-text" class="col-form-label">Enter 4 digit Code sent to your phone <br>+91-9000394200</label>
+                             <div class="row">
+                                 <div class="col">
+                                     <input type="text" class="form-control" placeholder="">
+                                 </div>
+                                 <div class="col">
+                                     <input type="text" class="form-control" placeholder="">
+                                 </div>
+                                 <div class="col">
+                                     <input type="text" class="form-control" placeholder="">
+                                 </div>
+                                 <div class="col">
+                                     <input type="text" class="form-control" placeholder="">
+                                 </div>
+                             </div>
+                         </div>
+                         <button type="button" class="btn btn-dark w-100 " data-bs-toggle="modal" data-bs-target="#success" data-bs-whatever="@mdo">Next</button>
+                         <p class="text-center">Resend Code (in 15 sec)</p>
+                     </form>
+                 </div>
+
+             </div>
+         </div>
+     </div>
 
 
 
-<!---address model-->
-<!-- Button trigger modal -->
+     <div class="modal fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header d-flex justify-content-center">
+                     <h3 class="modal-title  " id="exampleModalLabel" style="margin: 20px !important;"></h3>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body bg-light p-5">
+
+                     <h5 class="text-center p-3"><i class="fa fa-check text-success" aria-hidden="true"></i></h5>
+                     <h4 class="text-center" style="color: green;">Successfully Logged in !</h4>
+                 </div>
+
+             </div>
+         </div>
+     </div>
 
 
-<!-- Modal address -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+
+     <!---address model-->
+     <!-- Button trigger modal -->
+
+
+     <!-- Modal address -->
+     <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <p class="" style="font-size: 15px;">
+                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                         Store Location:<br> Lincoln- 344, Illinois, Chicago, USA <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Change</button>
+                     </p>
+                 </div>
+
+             </div>
+         </div>
+     </div> -->
+     <!---step 2--->
+     <!-- <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <p class="" style="font-size: 15px;">
+
+                         Change Location </p>
+                     <form>
+                         <div class="row">
+                             <div class="col"> <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Detect my Loction</button></div> or <div class="col"> <input type="text" placeholder="Type Your City" class="form-control"></div>
+                         </div>
+                     </form>
+
+
+                 </div>
+
+             </div>
+         </div>
+     </div>
+
+     ---detected location model- -->
+     <!-- <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <p class="" style="font-size: 15px;">
+
+                         Change Location </p>
+                     <form>
+                         <div class="row">
+                             <div class="col"> <button class="btn btn-success">Detect my Loction</button></div> or <div class="col"> <input type="text" placeholder="Type Your City" class="form-control"></div>
+                         </div>
+                     </form>
+                   <div> <h4>Saved Address</h4><p class="" style="font-size: 15px;">
+                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                         Store Location:<br> Lincoln- 344, Illinois, Chicago, USA 
+                     </p>
+                     <p class="" style="font-size: 15px;">
+                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                         Store Location:<br> Lincoln- 344, Illinois, Chicago, USA 
+                     </p></div>
+
+                 </div>
+
+             </div>
+         </div>
+     </div>
+ -->
+
+     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-       
+        <!-- <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5> -->
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <p class="" style="font-size: 15px;">
-                              <i class="fa fa-map-marker" aria-hidden="true"></i>
-                              Store Location:<br> Lincoln- 344, Illinois, Chicago, USA <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Change</button>
-                            </p>
+                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                         Store Location:<br> Lincoln- 344, Illinois, Chicago, USA <button class="btn btn-success"data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Change</button>
+                     </p>
       </div>
-      
+      <!-- <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+      </div> -->
     </div>
   </div>
 </div>
-<!---step 2--->
-<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-       
+        <!-- <h5 class="modal-title" id="exampleModalToggleLabel">Modal 2</h5> -->
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <p class="" style="font-size: 15px;">
-                              
-                              Change Location </p>
-                              <form>
-                              <div class="row"><div class="col"> <button class="btn btn-success" >Detect my Loction</button></div> or <div class="col"> <input type="text" placeholder="Type Your City" class="form-control"></div></div></form>
-                              
-                           
+
+Change Location </p>
+<form>
+<div class="row">
+    <div class="col"> <button class="btn btn-success" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Detect my Loction</button></div> or <div class="col"> <input type="text" placeholder="Type Your City" class="form-control"></div>
+</div>
+</form>
       </div>
-      
+      <!-- <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+      </div> -->
     </div>
   </div>
 </div>
+<div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 3</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="" style="font-size: 15px;">
 
-            <!-- <div class="header__bottom">
+Change Location </p>
+<form>
+<div class="row">
+    <div class="col"> <button class="btn btn-success">Detect my Loction</button></div> or <div class="col"> <input type="text" placeholder="Type Your City" class="form-control"></div>
+</div>
+</form>
+<h6 class="mt-3"> Saved Address</h6>
+<div class="text-center"> <p class="" style="font-size: 15px;">
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+Store Location: Lincoln- 344, Illinois, Chicago, USA 
+</p>
+<p class="" style="font-size: 15px;">
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+Store Location:Lincoln- 344, Illinois, Chicago, USA 
+</p></div>
+
+      </div>
+      <!-- <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div class="text-center">
+           <h6>Oh No!</h6>
+           <p> Where nit in  Lincoln- 344, Illinois, Chicago, USA </p>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci, minus facilis consequatur atque eos tempora quod accusantium odit veniam rem, officia qui voluptates reprehenderit necessitatibus. Sequi ipsa omnis architecto.</p>
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> -->
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <div class="header__bottom">
                 <div class="container">
                     <div class="header__bottom-content">
                         <div class="header__bottom-left">
@@ -824,168 +969,162 @@
                     </div>
                 </div>
             </div> -->
-            <div class="header__sidebar">
-                <button class="header__cross">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </button>
-                <div class="header__mobile-sidebar">
-                    <div class="header__mobile-top">
-                        <form action="#">
-                            <div class="header__mobile-input">
-                                <input type="text" placeholder="Search" />
-                                <button class="search-btn">
-                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M9.16667 16.3333C12.8486 16.3333 15.8333 13.3486 15.8333 9.66667C15.8333 5.98477 12.8486 3 9.16667 3C5.48477 3 2.5 5.98477 2.5 9.66667C2.5 13.3486 5.48477 16.3333 9.16667 16.3333Z"
-                                            stroke="currentColor"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                        <path d="M17.4999 18L13.8749 14.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </form>
-                        <ul class="header__mobile-menu">
-                            <li class="header__mobile-menu-item active">
-                                <a href="#" class="header__mobile-menu-item-link">
-                                    Home
-                                    <span class="drop-icon">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </a>
-                                <ul class="header__mobile-dropdown-menu">
-                                    <li class="header__mobile-dropdown-menu-link active">
-                                        <a href="index.html">Home 01</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="home-02.html">Home 02</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="home-03.html">Home 03</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="home-04.html">Home 04</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="home-05.html">Home 05</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="header__mobile-menu-item">
-                                <a href="#" class="header__mobile-menu-item-link">
-                                    Shop
-                                    <span class="drop-icon">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </a>
-                                <ul class="header__mobile-dropdown-menu">
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="shop-01.html">Shop 01</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="shop-02.html">Shop 02</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="header__mobile-menu-item">
-                                <a href="#" class="header__mobile-menu-item-link">
-                                    Pages
-                                    <span class="drop-icon">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </a>
-                                <ul class="header__mobile-dropdown-menu">
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="product-details.html">Product Details</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="wishlist.html">Wishlist</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="shopping-cart.html">Shopping Cart</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="checkout.html">Checkout</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="sign-in.html">Sign in</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="create-account.html">Create Account</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="user-dashboard.html">User Dashboard</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="order-history.html">order history</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="order-details.html">Order Details</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="account-setting.html">Account Settings</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="faq.html">faq</a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="404.html">404</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="header__mobile-menu-item">
-                                <a href="#" class="header__mobile-menu-item-link">
-                                    Blog
-                                    <span class="drop-icon">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </a>
-                                <ul class="header__mobile-dropdown-menu">
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="single-blog.html">Single Blog </a>
-                                    </li>
-                                    <li class="header__mobile-dropdown-menu-link">
-                                        <a href="blog-list.html">Blog list</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="header__mobile-menu-item">
-                                <a href="about.html" class="header__mobile-menu-item-link">About</a>
-                            </li>
-                            <li class="header__mobile-menu-item">
-                                <a href="contact.html" class="header__mobile-menu-item-link">Contacts</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="header__mobile-bottom">
-                        <div class="header__mobile-user">
-                            <div class="header__mobile-user--img">
-                                <img src="{{ asset('front') }}/images/user/img-03.png" alt="user" />
-                            </div>
-                            <div class="header__mobile-user--info">
-                                <h2 class="font-body--lg-500">Dianne Russell</h2>
-                                <p class="font-body--md-400">dianne.russell@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="header__mobile-action d-none">
-                            <a href="#" class="button button--md">Sign in</a>
-                            <a href="#" class="button button--md button--disable">Sign up</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-        </header>
+     <div class="header__sidebar">
+         <button class="header__cross">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                 <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+             </svg>
+         </button>
+         <div class="header__mobile-sidebar">
+             <div class="header__mobile-top">
+                 <form action="#">
+                     <div class="header__mobile-input">
+                         <input type="text" placeholder="Search" />
+                         <button class="search-btn">
+                             <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M9.16667 16.3333C12.8486 16.3333 15.8333 13.3486 15.8333 9.66667C15.8333 5.98477 12.8486 3 9.16667 3C5.48477 3 2.5 5.98477 2.5 9.66667C2.5 13.3486 5.48477 16.3333 9.16667 16.3333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M17.4999 18L13.8749 14.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                             </svg>
+                         </button>
+                     </div>
+                 </form>
+                 <ul class="header__mobile-menu">
+                     <li class="header__mobile-menu-item active">
+                         <a href="#" class="header__mobile-menu-item-link">
+                             Home
+                             <span class="drop-icon">
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                             </span>
+                         </a>
+                         <ul class="header__mobile-dropdown-menu">
+                             <li class="header__mobile-dropdown-menu-link active">
+                                 <a href="index.html">Home 01</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="home-02.html">Home 02</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="home-03.html">Home 03</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="home-04.html">Home 04</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="home-05.html">Home 05</a>
+                             </li>
+                         </ul>
+                     </li>
+                     <li class="header__mobile-menu-item">
+                         <a href="#" class="header__mobile-menu-item-link">
+                             Shop
+                             <span class="drop-icon">
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                             </span>
+                         </a>
+                         <ul class="header__mobile-dropdown-menu">
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="shop-01.html">Shop 01</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="shop-02.html">Shop 02</a>
+                             </li>
+                         </ul>
+                     </li>
+                     <li class="header__mobile-menu-item">
+                         <a href="#" class="header__mobile-menu-item-link">
+                             Pages
+                             <span class="drop-icon">
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                             </span>
+                         </a>
+                         <ul class="header__mobile-dropdown-menu">
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="product-details.html">Product Details</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="wishlist.html">Wishlist</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="shopping-cart.html">Shopping Cart</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="checkout.html">Checkout</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="sign-in.html">Sign in</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="create-account.html">Create Account</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="user-dashboard.html">User Dashboard</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="order-history.html">order history</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="order-details.html">Order Details</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="account-setting.html">Account Settings</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="faq.html">faq</a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="404.html">404</a>
+                             </li>
+                         </ul>
+                     </li>
+                     <li class="header__mobile-menu-item">
+                         <a href="#" class="header__mobile-menu-item-link">
+                             Blog
+                             <span class="drop-icon">
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path d="M3.33332 5.66667L7.99999 10.3333L12.6667 5.66667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                             </span>
+                         </a>
+                         <ul class="header__mobile-dropdown-menu">
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="single-blog.html">Single Blog </a>
+                             </li>
+                             <li class="header__mobile-dropdown-menu-link">
+                                 <a href="blog-list.html">Blog list</a>
+                             </li>
+                         </ul>
+                     </li>
+                     <li class="header__mobile-menu-item">
+                         <a href="about.html" class="header__mobile-menu-item-link">About</a>
+                     </li>
+                     <li class="header__mobile-menu-item">
+                         <a href="contact.html" class="header__mobile-menu-item-link">Contacts</a>
+                     </li>
+                 </ul>
+             </div>
+             <div class="header__mobile-bottom">
+                 <div class="header__mobile-user">
+                     <div class="header__mobile-user--img">
+                         <img src="{{ asset('front') }}/images/user/img-03.png" alt="user" />
+                     </div>
+                     <div class="header__mobile-user--info">
+                         <h2 class="font-body--lg-500">Dianne Russell</h2>
+                         <p class="font-body--md-400">dianne.russell@gmail.com</p>
+                     </div>
+                 </div>
+                 <div class="header__mobile-action d-none">
+                     <a href="#" class="button button--md">Sign in</a>
+                     <a href="#" class="button button--md button--disable">Sign up</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ </header>

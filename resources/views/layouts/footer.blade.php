@@ -28,7 +28,7 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <ul class="footer__navigation">
                                 <li class="footer__navigation-title">
-                                <h2 class="font-body--lg-500 " style="color: black;">comapny</h2>
+                                <h2 class="font-body--lg-500 " style="color: black;">For Consumer</h2>
                                 </li>
                                 <li class="footer__navigation-link">
                                     <a href="#"> Contact </a>
@@ -48,7 +48,7 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <ul class="footer__navigation">
                                 <li class="footer__navigation-title">
-                                <h2 class="font-body--lg-500 " style="color: black;">comapny</h2>
+                                <h2 class="font-body--lg-500 " style="color: black;">For Patners</h2>
                                 </li>
                                 <li class="footer__navigation-link">
                                     <a href="#"> About </a>
