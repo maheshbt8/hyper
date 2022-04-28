@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
 
-                    <div class="shopping-cart">
+                    <div class="shopping-cart bg-white">
             <div class="shopping-cart-top">
                 <div class="shopping-cart-header">
-                    <h5 class="font-body--xxl-500">Shopping Cart (<span class="count">2</span>)</h5>
+                    <h5 class="font-body--xxl-500">My Cart</h5>
                     <button class="close">
                         <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="22.5" cy="22.5" r="22.5" fill="white" />
@@ -22,8 +22,18 @@
                         <div class="text-content">
                             <h5 class="font-body--md-400">Fresh Indian Orange</h5>
                             <p class="font-body--md-400">1kg x <span class="font-body--md-500">12.00</span></p>
+                            <p>Rs 79 <del>Rs 99</del></p>
+                         
                         </div>
+                        <!-- <div class="row" style="display: inline;">
+                              <form><div class="col"><button class="btn btn-sm btn-warning">-</button></div><div class="col">1</div><div class="col"><button class="btn btn-sm btn-warning">+</button></div></form>
+                          </div> -->
                     </div>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-warning">-</button>
+  <button type="button" class="btn btn-sm">1</button>
+  <button type="button" class="btn btn-warning">+</button>
+</div>
                     <button class="delete-item">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 23C18.0748 23 23 18.0748 23 12C23 5.92525 18.0748 1 12 1C5.92525 1 1 5.92525 1 12C1 18.0748 5.92525 23 12 23Z" stroke="#CCCCCC" stroke-miterlimit="10" />
@@ -32,8 +42,49 @@
                         </svg>
                     </button>
                 </div>
+               <div class=" p-3">
+                   <p style="color:green;font-family:15px;" ><span style="color:green"><i class='fas fa-percentage'></i></span> promo code & Bank Offers</p>
+               </div>
 
-                <div class="shopping-cart__product-content">
+            <div>
+               <h6>bill details </h6>
+               <table class="table table-responsive">
+  
+  <tbody>
+    <tr >
+      
+      <td>MRP</td>
+      <td>99</td>
+     
+    </tr>
+    <tr>
+      
+      <td>Product Discount</td>
+     
+      <td>-Rs 19</td>
+    </tr>
+    <tr>
+      
+      <td>Delivery Charges</td>
+     
+      <td>Free</td>
+    </tr>
+    <tr>
+      
+      <td><b>Bill total</b></td>
+     
+      <td><b>Rs 79 </b></td>
+    </tr>
+   
+   
+  </tbody>
+</table>
+
+
+            </div>
+
+
+                <!-- <div class="shopping-cart__product-content">
                     <div class="shopping-cart__product-content-item">
                         <div class="img-wrapper">
                             <img src="{{ asset('front') }}/images/products/img-01.png" alt="product" />
@@ -50,22 +101,84 @@
                             <path d="M16 16L8 8" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>
-                </div>
+                </div>-->
             </div>
-            <div class="shopping-cart-bottom">
-                <div class="shopping-cart-product-info">
-                    <p class="product-count font-body--lg-400">2 Product</p>
-                    <span class="product-price font-body--lg-500">$26.00</span>
+
+            <div class="row mt-5 bg-light p-3">
+                <div class="col-md-6"><b>delivery address</b><br><span>f2112 try</span></div> <div class="col-md-6 "><button class="btn btn-success-cart" style="text-align: right;" >change</div>
+
+            </div>
+            <div class="row p-2" style="background-color: #0c831f;">
+            <div class="col-md-6">
+            <form action="#">
+                   
+            <button class="cart-bag color-white">
+                                         <i class="fa fa-shopping-cart text-white" aria-hidden="true"></i>
+
+                                         <span class="item-number"style="color:white;">1 item</span>
+                                     </button>
+                                     <div class="header__cart-item-content-info text-white">
+                                         <h5 style="color:white;"><b>RS 79 <del>Rs 99</del></b></h5>
+                                     </div>
+                </form>
+                </div>
+                <div class="col-md-6">
+<button class="btn btn-white" style="color: white;"  data-bs-toggle="modal" data-bs-target="#exampleModalcart" data-bs-whatever="@mdo">Proceed ></button>
                 </div>
 
+            </div>
+            <!-- <div class="shopping-cart-bottom">
+              
                 <form action="#">
                     <button class="button button--lg w-100">Checkout</button>
                     <button class="button button--lg button--disable w-100">
                         go to cart
                     </button>
                 </form>
-            </div>
+            </div> -->
         </div>
+
+     <!-------add cart iteam model ---->
+
+
+     <!-- <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModalcart" data-bs-whatever="@mdo">Open modal for @mdo</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button> -->
+
+<div class="modal fade" id="exampleModalcart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width: 400px;margin-left:30px">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><b><span><i class='fas fa-arrow-alt-circle-left'></i></span> My Address</b></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="text-center">
+           <h6><span><i class='fa fa-plus-circle text-success'></i></span> Add  A New Address</h6> <br><span style="font-size: 13px;margin-top:-20px;">uppal street no 3</span>
+          </div>
+          <div class="bg-light p-3">
+           <p>Choose Delivery Address</p>
+          </div>
+
+          <div class="text-center">
+            <p>  <span><i class='fa-solid fa-circle-dot text-success'></i></span> home</p>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <!----add card iteam model end--->
+
+
+
+
+
 <section class="banner banner--04">
             <div class="container">
                 <div class="swiper-container banner-slider--04">

@@ -119,3 +119,8 @@ button.arrows__btn {
 footer{
 	background-color: #ffffff !important;
 }
+
+.btn-success-cart{
+    background-color:#0c831f  !important;
+    color: white;
+}
