@@ -149,7 +149,7 @@
                          <li class="nav-item">
                              <div class="header__cart nav-item dropdown">
                                  <div class="dropdown">
-                                     <a class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                     <a class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" style="color:black;font-size:20px">
                                          Store Details
                                      </a>
                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -161,7 +161,7 @@
                          </li>
                          <li class="nav-item">
                              <div class="header__cart-item">
-                                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> login</a>
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" style="color:black;font-size:20px"> login</a>
                              </div>
                          </li>
 
