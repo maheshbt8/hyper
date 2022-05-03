@@ -13,11 +13,38 @@ class HomeController extends Controller
      * @param  int  $id
      * @return \Illuminate\View\View
      */
+    public function __construct()
+    {
+        $this->api_url=env('API_URL');
+        $this->store_id=env('STORE_ID');
+        $response = Http::get($this->api_url.'/retailer/profile/nearby_store_list/'.$this->store_id.'?customer_latitude=17.4010900&customer_longitude=78.5638922');
+        $res=json_decode($response->body());
+        $res=$res->response;
+        if($res->status == '200 OK'){
+            $this->branch_id=$res->data->branch[0]->branch_id;
+        }else{
+            $this->branch_id=0;
+        }
+        //$client = new \Guzzle\Service\Client($this->api_url);
+    }
     public function index()
     {
-        /*$response = Http::get('https://api.first.org/data/v1/countries?region=africa&limit=3&pretty=true');
-        print_r($response->body());*/
+        /*echo $this->api_url;
+        echo env('STORE_ID');die;*/
+        //echo $this->api_url.'/api/retailer/profile/nearby_store_list/'.$this->store_id;die;
+        //$response = Http::get($this->api_url.'/retailer/profile/nearby_store_list/'.$this->store_id.'?customer_latitude=17.4010900&customer_longitude=78.5638922');
+        //$response = Http::get($this->api_url.'profile/nearby_store_list/'.$this->store_id.'?customer_latitude=17.4010900&customer_longitude=78.5638922');
+        //print_r($response->body());die;
+        $res=json_decode($response->body());
+        //$res=$res->response;
+        echo "<pre/>";
+        print_r($res);die;
+        if($res->status == '200 OK'){
+            $storedata=['status'=>1,'data'=>$res->data];
+        }else{
+            $storedata=['status'=>0,'data'=>[]];
+        }
         //return view('layouts/app');
-        return view('website/home');
+        return view('website/home',compact('storedata'));
     }
 }
