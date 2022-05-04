@@ -174,84 +174,28 @@
   </div>
 </div>
      <!----add card iteam model end--->
-
-
-
-
-
 <section class="banner banner--04">
             <div class="container">
                 <div class="swiper-container banner-slider--04">
                     <div class="swiper-wrapper">
+                        @foreach($sliderimages['data'] as $img)
                         <div class="swiper-slide">
                             <div class="row banner--04__content">
                                 <div class="col-lg-12">
                                     <div class="banner--04__img-wrapper">
-                                        <img src="{{ asset('front') }}/images/banner/banner-lg-77.jpg" alt="banner" class="img-fluid" />
-                                        <!-- <div class="off-sale">
-                                            <p>
-                                                <span>70%</span>
-                                                off
-                                            </p>
-                                        </div> -->
+                                        <img src="{{ $img->imagepath }}" alt="banner" class="img-fluid" />
                                     </div>
                                 </div>
-                                <!-- <div class="col-lg-6">
-                                    <div class="banner--04__text-content">
-                                        <h5 class="title">Welcome to shopery</h5>
-                                        <h2 class="font-title--xxxl">
-                                            Fresh & Healthy Organic Food
-                                        </h2>
-                                        <p class="font-body--md-400">
-                                            Free shipping on all your order. we deliver, you enjoy
-                                        </p>
-                                        <a href="#" class="button button--md">
-                                            Shop now
-                                            <span>
-                                                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M16 7.50049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                    <path d="M9.95001 1.47559L16 7.49959L9.95001 13.5246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        @endforeach
+                        <!-- <div class="swiper-slide">
                             <div class="row banner--04__content">
                                 <div class="col-lg-12">
                                     <div class="banner--04__img-wrapper">
                                         <img src="{{ asset('front') }}/images/banner/images.jpg" alt="banner" class="img-fluid" />
-                                        <!-- <div class="off-sale">
-                                            <p>
-                                                <span>50%</span>
-                                                off
-                                            </p>
-                                        </div> -->
                                     </div>
                                 </div>
-                                <!-- <div class="col-lg-6">
-                                    <div class="banner--04__text-content">
-                                        <h5 class="title">Welcome to shopery</h5>
-                                        <h2 class="font-title--xxxl">
-                                            Fresh & Healthy Organic Food
-                                        </h2>
-
-                                        <p class="font-body--md-400">
-                                            Free shipping on all your order. we deliver, you enjoy
-                                        </p>
-                                        <a href="#" class="button button--md">
-                                            Shop now
-                                            <span>
-                                                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M16 7.50049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                    <path d="M9.95001 1.47559L16 7.49959L9.95001 13.5246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -259,37 +203,10 @@
                                 <div class="col-lg-12">
                                     <div class="banner--04__img-wrapper">
                                         <img src="{{ asset('front') }}/images/banner/banner-sm-19.jpg" alt="banner" class="img-fluid" />
-                                        <!-- <div class="off-sale">
-                                            <p>
-                                                <span>80%</span>
-                                                off
-                                            </p>
-                                        </div> -->
                                     </div>
                                 </div>
-                                <!-- <div class="col-lg-6">
-                                    <div class="banner--04__text-content">
-                                        <h5 class="title">Welcome to shopery</h5>
-                                        <h2 class="font-title--xxxl">
-                                            Fresh & Healthy Organic Food
-                                        </h2>
-
-                                        <p class="font-body--md-400">
-                                            Free shipping on all your order. we deliver, you enjoy
-                                        </p>
-                                        <a href="#" class="button button--md">
-                                            Shop now
-                                            <span>
-                                                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M16 7.50049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                    <path d="M9.95001 1.47559L16 7.49959L9.95001 13.5246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div> -->
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -365,14 +282,15 @@
                 </div>
                 <!-- Desktop Versions -->
                 <div class="popular-categories__wrapper">
+                    @foreach($categoriesdata['data'] as $category)
                     <a href="# " class="cards-sm popular-categories__wrapper-item">
                         <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-fruits.png" alt="img-01">
+                            <img src="{{ $category->image_path }}" alt="img-01">
                         </div>
-                        <h5 class="font-body--xl-500">Fresh Fruit</h5>
+                        <h5 class="font-body--xl-500">{{ $category->name }}</h5>
                     </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
+                    @endforeach
+                    <!-- <a href="# " class="cards-sm popular-categories__wrapper-item">
                         <div class="cards-sm__img-wrapper">
                             <img src="{{ asset('front') }}/images/categories/image-icon-vegitables.png" alt="img-01">
                         </div>
@@ -474,7 +392,7 @@
                             <img src="{{ asset('front') }}/images/categories/image-oil.png" alt="img-01">
                         </div>
                         <h5 class="font-body--xl-500">Oil</h5>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Mobile  Versions -->
