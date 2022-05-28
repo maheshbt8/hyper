@@ -249,20 +249,6 @@
                             <button type="button" class="btn btn-md app_download_btn float-right">download app</button>
                         </div>
                     </div>
-                    <!-- <div class="newsletter newsletter--two bg--gray-9 banner_home">
-                        <div class="newsletter__leftcontent">
-                            <img src="{{ asset('front') }}/images/banner/banner_home.png" alt="img-01" id="banner_coupon">
-                            <div class="newsletter__leftcontent-text-content banner_text">
-                                <h2 class="font-body--xxxl-600">Welcome to HYPER APPS</h2>
-                                <p class="font-body--md-400">
-                                    download app to get <span class="per_off">50% off</span> on your first order!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="newsletter__rightcontent">
-                            hi
-                        </div>
-                    </div> -->
                 </div>
             </section>
 <section class="popular-categories section section--md">
@@ -290,109 +276,6 @@
                         <h5 class="font-body--xl-500">{{ $category->name }}</h5>
                     </a>
                     @endforeach
-                    <!-- <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-icon-vegitables.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Fresh Vegetables</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-meat.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Meat &amp; Fish</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-icon-snaks.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Snacks</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/img-12.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Beverages</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-icon-beauty.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Beauty &amp; Health</h5>
-                    </a>
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-fruits.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Fresh Fruit</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-icon-vegitables.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Fresh Vegetables</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-meat.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Meat &amp; Fish</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-icon-snaks.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Snacks</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-icon-snaks2.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Bread &amp; Bakery</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/img-06.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Baking Needs</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/img-07.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Cooking</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/img-08.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Diabetic Food</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-soda.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Dish Detergents</h5>
-                    </a>
-
-                    <a href="# " class="cards-sm popular-categories__wrapper-item">
-                        <div class="cards-sm__img-wrapper">
-                            <img src="{{ asset('front') }}/images/categories/image-oil.png" alt="img-01">
-                        </div>
-                        <h5 class="font-body--xl-500">Oil</h5>
-                    </a> -->
                 </div>
 
                 <!-- Mobile  Versions -->
@@ -564,26 +447,6 @@
                             </button>
                         </div>
                     </div>
-                    <!-- <div class="section__head section__head--three section__head--three-center">
-                        <h2 class="section--title-two font-title--lg">
-                            Best Seller
-                            <span class="title-bar"></span>
-                        </h2>
-                        <div class="arrows category--top-arrows-mb">
-                            <button class="arrows__btn swiper-button--prev">
-                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.25 7.22607H16.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M7.30005 1.20117L1.25005 7.22517L7.30005 13.2502" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                            <button class="arrows__btn swiper-button--next">
-                                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 7.50049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M9.95001 1.47559L16 7.49959L9.95001 13.5246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div> -->
                     <div class="swiper-container category--top-slider--two">
                         <div class="swiper-wrapper">
                             <?php for($i=0;$i<10;$i++){?>
@@ -622,45 +485,11 @@
                                                 <span class="font-body--lg-500 card_home_main_price">$14.99</span>
                                                 <del class="font-body--lg-200">$14.99</del>
                                             </div>
-                                            <!-- <ul class="cards-md__info-rating d-flex">
-                                                <li>
-                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6.20663 9.44078L8.57101 10.9385C8.87326 11.1298 9.24826 10.8452 9.15863 10.4923L8.47576 7.80541C8.45647 7.73057 8.45869 7.6518 8.48217 7.57816C8.50566 7.50453 8.54945 7.43902 8.60851 7.38916L10.7288 5.62478C11.007 5.39303 10.8638 4.93066 10.5056 4.90741L7.73701 4.72741C7.66246 4.72212 7.59096 4.69577 7.53081 4.65142C7.47066 4.60707 7.42435 4.54656 7.39726 4.47691L6.36451 1.87666C6.33638 1.80276 6.28647 1.73916 6.22137 1.69428C6.15627 1.6494 6.07907 1.62537 6.00001 1.62537C5.92094 1.62537 5.84374 1.6494 5.77864 1.69428C5.71354 1.73916 5.66363 1.80276 5.63551 1.87666L4.60276 4.47691C4.57572 4.54663 4.52943 4.60722 4.46928 4.65164C4.40913 4.69606 4.33759 4.72246 4.26301 4.72778L1.49438 4.90778C1.13663 4.93066 0.992631 5.39303 1.27126 5.62478L3.39151 7.38953C3.4505 7.43936 3.49424 7.50481 3.51772 7.57837C3.54121 7.65193 3.54347 7.73062 3.52426 7.80541L2.89126 10.2973C2.78363 10.7207 3.23401 11.0623 3.59626 10.8324L5.79376 9.44078C5.85552 9.40152 5.92719 9.38066 6.00038 9.38066C6.07357 9.38066 6.14524 9.40152 6.20701 9.44078H6.20663Z" fill="#FF8A00"></path>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6.20663 9.44078L8.57101 10.9385C8.87326 11.1298 9.24826 10.8452 9.15863 10.4923L8.47576 7.80541C8.45647 7.73057 8.45869 7.6518 8.48217 7.57816C8.50566 7.50453 8.54945 7.43902 8.60851 7.38916L10.7288 5.62478C11.007 5.39303 10.8638 4.93066 10.5056 4.90741L7.73701 4.72741C7.66246 4.72212 7.59096 4.69577 7.53081 4.65142C7.47066 4.60707 7.42435 4.54656 7.39726 4.47691L6.36451 1.87666C6.33638 1.80276 6.28647 1.73916 6.22137 1.69428C6.15627 1.6494 6.07907 1.62537 6.00001 1.62537C5.92094 1.62537 5.84374 1.6494 5.77864 1.69428C5.71354 1.73916 5.66363 1.80276 5.63551 1.87666L4.60276 4.47691C4.57572 4.54663 4.52943 4.60722 4.46928 4.65164C4.40913 4.69606 4.33759 4.72246 4.26301 4.72778L1.49438 4.90778C1.13663 4.93066 0.992631 5.39303 1.27126 5.62478L3.39151 7.38953C3.4505 7.43936 3.49424 7.50481 3.51772 7.57837C3.54121 7.65193 3.54347 7.73062 3.52426 7.80541L2.89126 10.2973C2.78363 10.7207 3.23401 11.0623 3.59626 10.8324L5.79376 9.44078C5.85552 9.40152 5.92719 9.38066 6.00038 9.38066C6.07357 9.38066 6.14524 9.40152 6.20701 9.44078H6.20663Z" fill="#FF8A00"></path>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6.20663 9.44078L8.57101 10.9385C8.87326 11.1298 9.24826 10.8452 9.15863 10.4923L8.47576 7.80541C8.45647 7.73057 8.45869 7.6518 8.48217 7.57816C8.50566 7.50453 8.54945 7.43902 8.60851 7.38916L10.7288 5.62478C11.007 5.39303 10.8638 4.93066 10.5056 4.90741L7.73701 4.72741C7.66246 4.72212 7.59096 4.69577 7.53081 4.65142C7.47066 4.60707 7.42435 4.54656 7.39726 4.47691L6.36451 1.87666C6.33638 1.80276 6.28647 1.73916 6.22137 1.69428C6.15627 1.6494 6.07907 1.62537 6.00001 1.62537C5.92094 1.62537 5.84374 1.6494 5.77864 1.69428C5.71354 1.73916 5.66363 1.80276 5.63551 1.87666L4.60276 4.47691C4.57572 4.54663 4.52943 4.60722 4.46928 4.65164C4.40913 4.69606 4.33759 4.72246 4.26301 4.72778L1.49438 4.90778C1.13663 4.93066 0.992631 5.39303 1.27126 5.62478L3.39151 7.38953C3.4505 7.43936 3.49424 7.50481 3.51772 7.57837C3.54121 7.65193 3.54347 7.73062 3.52426 7.80541L2.89126 10.2973C2.78363 10.7207 3.23401 11.0623 3.59626 10.8324L5.79376 9.44078C5.85552 9.40152 5.92719 9.38066 6.00038 9.38066C6.07357 9.38066 6.14524 9.40152 6.20701 9.44078H6.20663Z" fill="#FF8A00"></path>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6.20663 9.44078L8.57101 10.9385C8.87326 11.1298 9.24826 10.8452 9.15863 10.4923L8.47576 7.80541C8.45647 7.73057 8.45869 7.6518 8.48217 7.57816C8.50566 7.50453 8.54945 7.43902 8.60851 7.38916L10.7288 5.62478C11.007 5.39303 10.8638 4.93066 10.5056 4.90741L7.73701 4.72741C7.66246 4.72212 7.59096 4.69577 7.53081 4.65142C7.47066 4.60707 7.42435 4.54656 7.39726 4.47691L6.36451 1.87666C6.33638 1.80276 6.28647 1.73916 6.22137 1.69428C6.15627 1.6494 6.07907 1.62537 6.00001 1.62537C5.92094 1.62537 5.84374 1.6494 5.77864 1.69428C5.71354 1.73916 5.66363 1.80276 5.63551 1.87666L4.60276 4.47691C4.57572 4.54663 4.52943 4.60722 4.46928 4.65164C4.40913 4.69606 4.33759 4.72246 4.26301 4.72778L1.49438 4.90778C1.13663 4.93066 0.992631 5.39303 1.27126 5.62478L3.39151 7.38953C3.4505 7.43936 3.49424 7.50481 3.51772 7.57837C3.54121 7.65193 3.54347 7.73062 3.52426 7.80541L2.89126 10.2973C2.78363 10.7207 3.23401 11.0623 3.59626 10.8324L5.79376 9.44078C5.85552 9.40152 5.92719 9.38066 6.00038 9.38066C6.07357 9.38066 6.14524 9.40152 6.20701 9.44078H6.20663Z" fill="#FF8A00"></path>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6.20663 9.44078L8.57101 10.9385C8.87326 11.1298 9.24826 10.8452 9.15863 10.4923L8.47576 7.80541C8.45647 7.73057 8.45869 7.6518 8.48217 7.57816C8.50566 7.50453 8.54945 7.43902 8.60851 7.38916L10.7288 5.62478C11.007 5.39303 10.8638 4.93066 10.5056 4.90741L7.73701 4.72741C7.66246 4.72212 7.59096 4.69577 7.53081 4.65142C7.47066 4.60707 7.42435 4.54656 7.39726 4.47691L6.36451 1.87666C6.33638 1.80276 6.28647 1.73916 6.22137 1.69428C6.15627 1.6494 6.07907 1.62537 6.00001 1.62537C5.92094 1.62537 5.84374 1.6494 5.77864 1.69428C5.71354 1.73916 5.66363 1.80276 5.63551 1.87666L4.60276 4.47691C4.57572 4.54663 4.52943 4.60722 4.46928 4.65164C4.40913 4.69606 4.33759 4.72246 4.26301 4.72778L1.49438 4.90778C1.13663 4.93066 0.992631 5.39303 1.27126 5.62478L3.39151 7.38953C3.4505 7.43936 3.49424 7.50481 3.51772 7.57837C3.54121 7.65193 3.54347 7.73062 3.52426 7.80541L2.89126 10.2973C2.78363 10.7207 3.23401 11.0623 3.59626 10.8324L5.79376 9.44078C5.85552 9.40152 5.92719 9.38066 6.00038 9.38066C6.07357 9.38066 6.14524 9.40152 6.20701 9.44078H6.20663Z" fill="#CCCCCC"></path>
-                                                    </svg>
-                                                </li>
-                                            </ul> -->
 
                                             <div class="button-card-home-add">
                                                 <button class="btn btn-sm btn-addcart-home">ADD</button>
                                             </div>
                                         </div>
-                                        <!-- <div class="cards-md__info-right">
-                                            <span class="action-btn">
-                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </svg>
-                                            </span>
-                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -668,24 +497,10 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                   <!--  <div class="arrows category--top-arrows-lg">
-                        <button class="arrows__btn swiper-button--prev">
-                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.25 7.22607H16.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M7.30005 1.20117L1.25005 7.22517L7.30005 13.2502" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button class="arrows__btn swiper-button--next">
-                            <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 7.50049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M9.95001 1.47559L16 7.49959L9.95001 13.5246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div> -->
                 </div>
             </div>
         </section>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <!--  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 @stop

@@ -54,4 +54,16 @@ class HomeController extends Controller
         //return view('layouts/app');
         return view('website/home',compact('categoriesdata','sliderimages'));
     }
+    public function categories()
+    {
+        $response = Http::get($this->api_url.'storefront/rootcategory/list/'.$this->store_id.'/'.$this->branch_id);
+        $res_data=json_decode($response->body());
+        $res=$res_data->response;
+        if($res->status == '200 OK'){
+            $categoriesdata=['status'=>1,'data'=>$res->data];
+        }else{
+            $categoriesdata=['status'=>0,'data'=>[]];
+        }
+        return view('website/categories',compact('categoriesdata'));   
+    }
 }
